@@ -1,0 +1,266 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Archivo", sans-serif;
+}
+
+
+/*Larger Screens*/
+@media (min-width:1200px) and (max-width:1600px){
+    /*HEADER CONTAINER*/
+    .header-container{
+        background-image: url('./images/globeimage.jpg');
+        width: 100%;
+    }
+    .header-img{
+        margin-left: 30px;
+    }
+    .header-title{
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 52px;
+    }
+    .header-address{
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 36px;
+    }
+    .header-para{
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+    /**FORM_CONTAINER**/
+    .form-container{
+        background-color: #F1F8E8;
+        height: 100%;
+    }
+    .form{
+        width: 90%;
+        margin: 0px auto;
+    }
+    .container-heading{
+        text-align: center;
+    }
+    .heading{
+        font-size: 38px;
+        font-weight: bold;
+
+    }
+    .paragraph{
+        font-size: 16px;
+    }
+    .left-element{
+        float: left;
+        width:48%;
+    }
+    .right-element{
+        float: right;
+        width:48%;
+    }
+    .clear{
+        clear: both;
+    }
+
+    .input-element{
+        width: 100%;
+        height: 60px;
+        padding: 8px;
+    }
+    .comments{
+        width: 100%;
+        height: 60px;
+        padding: 8px;
+    }
+    .btn-container{
+        text-align: center;
+
+    }
+    .submit-btn{
+        background-color: #DB764A;
+        border-radius: 20px;
+        border-color: #DB764A;
+        padding: 6px; 
+    }
+
+    /*Location Container*/
+    .location-container{
+        background-color: #686D76;
+        height: 100%;
+    }
+    .location-img{
+        height: 230px;
+        width: 450px;
+    }
+    .location-Name{
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        color: #ffffff;
+    }
+    .locations-img-container{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    /*Footer Section*/
+    .footer-container{
+        background-color: #000000;
+
+    }
+    .footer-title{
+        color: #ffffff;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .footer-para{
+        color: #726f6ded;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .Procal{
+        float: left;
+        width: 15%;
+    }
+    .Who-We{
+        float: left;
+        width: 15%;
+    }
+    .What-we-do{
+        float: left;
+        width: 15%;
+    }
+    .Products{
+        float: left;
+        width: 15%;
+    }
+    .solutions{
+        float: left;
+        width: 15%;
+    }
+    .cyber-security{
+        float: right;
+        width: 15%;
+    }
+}
+
+@media (max-width:750px){
+    /*HEADER CONTAINER*/
+.header-container{
+    background-image: url('./images/globeimage.jpg');
+    width: 100%;
+    text-align: center;
+} 
+.header-img{
+    margin-left: 30px;
+}
+.header-title{
+    color: #000000;
+    font-weight: bold;
+    font-size: 52px;
+}
+.header-address{
+    color: #000000;
+    font-weight: bold;
+    font-size: 36px;
+}
+.header-para{
+    color: #000000;
+    font-size: 20px;
+}
+.form-container{
+    background-color: #F1F8E8;
+    height: 100%;
+}
+.form{
+    width: 90%;
+    margin: 0px auto;
+}
+.container-heading{
+    text-align: center;
+}
+.heading{
+    font-size: 38px;
+    font-weight: bold;
+
+}
+.paragraph{
+    font-size: 16px;
+}
+.left-element{
+    /*float: left;*/
+    width:100%;
+    margin-bottom: 15px;
+    
+}
+.right-element{
+    /*float: right;*/
+    width:100%;
+    margin-bottom: 15px;
+}
+.clear{
+    clear: both;
+}
+
+.input-element{
+    width: 100%;
+    height: 60px;
+    padding: 8px;
+}
+.comments{
+    width: 100%;
+    height: 60px;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+.btn-container{
+    text-align: center;
+
+}
+.submit-btn{
+    background-color: #DB764A;
+    border-radius: 20px;
+    border-color: #DB764A;
+    padding: 6px; 
+}
+    .location-container{
+    background-color: #686D76;
+    height: 100%;
+}
+.location-img{
+    height: 230px;
+    width: 450px;
+}
+.location-Name{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+.locations-img-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*Footer Section*/
+.footer-container{
+    background-color: #000000;
+    text-align: center;
+
+}
+.footer-title{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+}
+.footer-para{
+    color: #726f6ded;
+    font-size: 16px;
+    font-weight: bold;
+}
+.icons{
+    height: 30px;
+    width: 30px;
+}
+}
